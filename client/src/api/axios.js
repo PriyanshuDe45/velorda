@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const isProduction = window.location.pathname.startsWith('/velorda');
+
 const api = axios.create({
-  baseURL: '',
+  baseURL: isProduction ? '/velorda' : '',
   withCredentials: true,
   headers: { 'Content-Type': 'application/json' },
 });
