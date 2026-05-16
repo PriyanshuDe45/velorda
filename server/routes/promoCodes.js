@@ -3,7 +3,7 @@ const router = express.Router();
 const crypto = require('crypto');
 const PromoCode = require('../models/PromoCode');
 const Category = require('../models/Category');
-const { verifyToken } = require('../middlewares/auth');
+const { verifyToken } = require('../middleware/auth');
 
 function generateCode() {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
