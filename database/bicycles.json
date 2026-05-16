@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "6a083d23468c10d08ad204a0",
+    "key": "BIC_01",
+    "name": "MountainX",
+    "slug": "mountain-x",
+    "description": "Durable mountain bike with suspension...",
+    "wear": 0,
+    "image": "bicycle-1.jpg",
+    "status": "available",
+    "locationX": 3197.13,
+    "locationY": 125.05,
+    "category": "6a083d23468c10d08ad2049d",
+    "createdAt": "2026-05-16T09:47:15.206Z",
+    "updatedAt": "2026-05-16T09:47:15.206Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204a1",
+    "key": "BIC_02",
+    "name": "Roadster",
+    "slug": "roadster",
+    "description": "Lightweight and fast bike for city...",
+    "wear": 0,
+    "image": "bicycle-2.jpg",
+    "status": "available",
+    "locationX": 1375.15,
+    "locationY": 1116.05,
+    "category": "6a083d23468c10d08ad2049d",
+    "createdAt": "2026-05-16T09:47:15.207Z",
+    "updatedAt": "2026-05-16T09:47:15.207Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204a2",
+    "key": "BIC_03",
+    "name": "SwiftRide",
+    "slug": "swift-ride",
+    "description": "Agile city bike ideal for everyday...",
+    "wear": 0,
+    "image": "bicycle-3.jpg",
+    "status": "available",
+    "locationX": 132.68,
+    "locationY": 994.19,
+    "category": "6a083d23468c10d08ad2049d",
+    "createdAt": "2026-05-16T09:47:15.209Z",
+    "updatedAt": "2026-05-16T09:47:15.209Z",
+    "__v": 0
+  }
+]

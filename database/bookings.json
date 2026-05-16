@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "6a083d23468c10d08ad204a5",
+    "key": "BKG_01",
+    "renter": "6a083d23468c10d08ad2049b",
+    "bicycle": "6a083d23468c10d08ad204a0",
+    "tariff": "6a083d23468c10d08ad204a3",
+    "status": "completed",
+    "startedAt": "2026-05-16T07:47:15.217Z",
+    "endedAt": "2026-05-16T07:52:15.217Z",
+    "percentageOfWear": 5,
+    "photos": [
+      "bicycle-1.jpg",
+      "bicycle-2.jpg"
+    ],
+    "finalPrice": 315,
+    "rating": 4,
+    "createdAt": "2026-05-16T09:47:15.219Z",
+    "updatedAt": "2026-05-16T09:47:15.219Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204a6",
+    "key": "BKG_02",
+    "renter": "6a083d23468c10d08ad2049b",
+    "bicycle": "6a083d23468c10d08ad204a1",
+    "tariff": "6a083d23468c10d08ad204a3",
+    "status": "completed",
+    "startedAt": "2026-05-16T07:47:15.217Z",
+    "endedAt": "2026-05-16T08:01:15.217Z",
+    "percentageOfWear": 8,
+    "photos": [
+      "bicycle-1.jpg",
+      "bicycle-2.jpg"
+    ],
+    "finalPrice": 1520,
+    "rating": 5,
+    "createdAt": "2026-05-16T09:47:15.224Z",
+    "updatedAt": "2026-05-16T09:47:15.224Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204a7",
+    "key": "BKG_03",
+    "renter": "6a083d23468c10d08ad2049b",
+    "bicycle": "6a083d23468c10d08ad204a1",
+    "tariff": "6a083d23468c10d08ad204a4",
+    "status": "completed",
+    "startedAt": "2026-05-16T07:47:15.217Z",
+    "endedAt": "2026-05-16T07:55:15.217Z",
+    "percentageOfWear": 4,
+    "photos": [
+      "bicycle-1.jpg",
+      "bicycle-2.jpg"
+    ],
+    "finalPrice": 850,
+    "rating": 5,
+    "createdAt": "2026-05-16T09:47:15.226Z",
+    "updatedAt": "2026-05-16T09:47:15.226Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204a8",
+    "key": "BKG_04",
+    "renter": "6a083d23468c10d08ad2049b",
+    "bicycle": "6a083d23468c10d08ad204a1",
+    "tariff": "6a083d23468c10d08ad204a4",
+    "status": "completed",
+    "startedAt": "2026-05-16T07:47:15.217Z",
+    "endedAt": "2026-05-16T08:17:15.217Z",
+    "percentageOfWear": 14,
+    "photos": [
+      "bicycle-1.jpg",
+      "bicycle-2.jpg"
+    ],
+    "finalPrice": 2500,
+    "rating": 4,
+    "createdAt": "2026-05-16T09:47:15.228Z",
+    "updatedAt": "2026-05-16T09:47:15.228Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204a9",
+    "key": "BKG_05",
+    "renter": "6a083d23468c10d08ad2049c",
+    "bicycle": "6a083d23468c10d08ad204a2",
+    "tariff": "6a083d23468c10d08ad204a3",
+    "status": "completed",
+    "startedAt": "2026-05-16T07:47:15.217Z",
+    "endedAt": "2026-05-16T07:49:15.217Z",
+    "percentageOfWear": 2,
+    "photos": [
+      "bicycle-1.jpg",
+      "bicycle-2.jpg"
+    ],
+    "finalPrice": 230,
+    "rating": 2,
+    "createdAt": "2026-05-16T09:47:15.230Z",
+    "updatedAt": "2026-05-16T09:47:15.230Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204aa",
+    "key": "BKG_06",
+    "renter": "6a083d23468c10d08ad2049c",
+    "bicycle": "6a083d23468c10d08ad204a2",
+    "tariff": "6a083d23468c10d08ad204a3",
+    "status": "completed",
+    "startedAt": "2026-05-16T07:47:15.217Z",
+    "endedAt": "2026-05-16T07:47:15.217Z",
+    "percentageOfWear": 0,
+    "photos": [
+      "bicycle-1.jpg",
+      "bicycle-2.jpg"
+    ],
+    "finalPrice": 0,
+    "rating": null,
+    "createdAt": "2026-05-16T09:47:15.232Z",
+    "updatedAt": "2026-05-16T09:47:15.232Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "6a083d23468c10d08ad204ab",
+    "key": "APP_01",
+    "applicantName": "User 3",
+    "applicantPhone": "+77777777773",
+    "applicantEmail": "user3@gmail.com",
+    "applicant": "6a083d23468c10d08ad2049b",
+    "category": "6a083d23468c10d08ad2049d",
+    "status": "pending",
+    "createdAt": "2026-05-16T09:47:15.242Z",
+    "updatedAt": "2026-05-16T09:47:15.242Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204ac",
+    "key": "APP_02",
+    "applicantName": "User 4",
+    "applicantPhone": "+77777777774",
+    "applicantEmail": "user4@gmail.com",
+    "applicant": "6a083d23468c10d08ad2049c",
+    "category": "6a083d23468c10d08ad2049d",
+    "status": "pending",
+    "createdAt": "2026-05-16T09:47:15.245Z",
+    "updatedAt": "2026-05-16T09:47:15.245Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad204ad",
+    "key": "APP_03",
+    "applicantName": "User 4",
+    "applicantPhone": "+77777777774",
+    "applicantEmail": "user4@gmail.com",
+    "applicant": "6a083d23468c10d08ad2049c",
+    "category": "6a083d23468c10d08ad2049e",
+    "status": "pending",
+    "createdAt": "2026-05-16T09:47:15.249Z",
+    "updatedAt": "2026-05-16T09:47:15.249Z",
+    "__v": 0
+  }
+]

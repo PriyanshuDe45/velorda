@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "6a083d22468c10d08ad20499",
+    "key": "USR_01",
+    "name": "User 1",
+    "email": "user1@gmail.com",
+    "phone": "+77777777771",
+    "password": "$2b$10$XpywFWoGhdhmi0DxgVDwQu7ImtwiAT.DvPbjkq2IBdBXZPTIJPFvq",
+    "createdAt": "2026-05-16T09:47:14.953Z",
+    "updatedAt": "2026-05-16T09:47:14.953Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad2049a",
+    "key": "USR_02",
+    "name": "User 2",
+    "email": "user2@gmail.com",
+    "phone": "+77777777772",
+    "password": "$2b$10$9TWsWFCeTdKAIv620R9NyeSV6JpU3.neKCBiClhWxnl3.GlL7RWZu",
+    "createdAt": "2026-05-16T09:47:15.037Z",
+    "updatedAt": "2026-05-16T09:47:15.037Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad2049b",
+    "key": "USR_03",
+    "name": "User 3",
+    "email": "user3@gmail.com",
+    "phone": "+77777777773",
+    "password": "$2b$10$zJD6WynbiQfCJ.nNSbjyzeWBEPfkcLNYBTP1z6YizC5Z0yA9K7JnO",
+    "createdAt": "2026-05-16T09:47:15.117Z",
+    "updatedAt": "2026-05-16T09:47:15.117Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad2049c",
+    "key": "USR_04",
+    "name": "User 4",
+    "email": "user4@gmail.com",
+    "phone": "+77777777774",
+    "password": "$2b$10$txLoE9//uzc6sCxblD0PKuztpLT7DUN6Qk/Oq3goXHkjcH8e8NY8a",
+    "createdAt": "2026-05-16T09:47:15.195Z",
+    "updatedAt": "2026-05-16T09:47:15.195Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "6a083823f963b7cb943b7ae9",
+    "code": "WTV99",
+    "expiresAt": "2026-05-30T03:25:00.000Z",
+    "freeMinutes": null,
+    "discountPercent": 20,
+    "category": "6a0836cd8b6ce346f8fdb46a",
+    "createdAt": "2026-05-16T09:25:55.246Z",
+    "updatedAt": "2026-05-16T09:25:55.246Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083831f963b7cb943b7aea",
+    "code": "PO25A",
+    "expiresAt": "2026-06-24T09:26:00.000Z",
+    "freeMinutes": null,
+    "discountPercent": 23,
+    "category": "6a0836cd8b6ce346f8fdb46a",
+    "createdAt": "2026-05-16T09:26:09.706Z",
+    "updatedAt": "2026-05-16T09:26:09.706Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a08383ef963b7cb943b7aeb",
+    "code": "ZYMXUDFDT",
+    "expiresAt": "2026-04-06T09:26:00.000Z",
+    "freeMinutes": 23,
+    "discountPercent": null,
+    "category": "6a0836cd8b6ce346f8fdb46a",
+    "createdAt": "2026-05-16T09:26:22.262Z",
+    "updatedAt": "2026-05-16T09:26:22.262Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a08386fc1e78a8cfc796c80",
+    "code": "PF4CY",
+    "expiresAt": "2026-05-05T09:27:00.000Z",
+    "freeMinutes": 2,
+    "discountPercent": null,
+    "category": "6a0836cd8b6ce346f8fdb46a",
+    "createdAt": "2026-05-16T09:27:11.931Z",
+    "updatedAt": "2026-05-16T09:27:11.931Z",
+    "__v": 0
+  }
+]

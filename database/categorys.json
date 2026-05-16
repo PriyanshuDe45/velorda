@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "6a083d23468c10d08ad2049d",
+    "key": "CAT_01",
+    "name": "City Bicycles",
+    "owner": "6a083d22468c10d08ad20499",
+    "createdAt": "2026-05-16T09:47:15.198Z",
+    "updatedAt": "2026-05-16T09:47:15.198Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad2049e",
+    "key": "CAT_02",
+    "name": "Mountain Bicycles",
+    "owner": "6a083d22468c10d08ad20499",
+    "createdAt": "2026-05-16T09:47:15.200Z",
+    "updatedAt": "2026-05-16T09:47:15.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a083d23468c10d08ad2049f",
+    "key": "CAT_03",
+    "name": "City Bicycles",
+    "owner": "6a083d23468c10d08ad2049a",
+    "createdAt": "2026-05-16T09:47:15.202Z",
+    "updatedAt": "2026-05-16T09:47:15.202Z",
+    "__v": 0
+  }
+]
