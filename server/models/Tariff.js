@@ -9,4 +9,8 @@ const tariffSchema = new mongoose.Schema({
     maxPrice: { type : Number , default : null},
     isArchived: { type : Boolean , default : null},
     category : { type: mongoose.Schema.Types.ObjectId, ref: ' Category', required :true}
-}, { timestamp: true})
+}, { timestamp: true});
+
+tariffSchema.index({name :1 , type: 1, category: 1}, { unique : true});
+
+module.exports = mongoose.model('Tariff', tariffSchema);
