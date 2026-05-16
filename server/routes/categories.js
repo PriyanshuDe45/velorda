@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Category = require('../models/Category');
 const Bicycle = require('../models/Bicycle');
-const { verifyToken } = require('../middlewares/auth');
+const { verifyToken } = require('../middleware/auth');
 
 router.get('/', verifyToken, async (req, res) => {
   try {
@@ -44,6 +44,29 @@ router.delete('/:id', verifyToken, async (req, res) => {
     if (bikeCount > 0) return res.status(400).json({ error: 'Cannot delete category with bicycles' });
     await category.deleteOne();
     res.json({ message: 'Deleted' });
+  } catch (err) {
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+router.get('/:id/conditions', verifyToken, async (req, res) => {
+  try {
+    const category = await Category.findOne({ _id: req.params.id, owner: req.user._id });
+    if (!category) return res.status(404).json({ error: 'Not found' });
+    res.json(category.rentCondition);
+  } catch (err) {
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+router.patch('/:id/conditions', verifyToken, async (req, res) => {
+  try {
+    const category = await Category.findOne({ _id: req.params.id, owner: req.user._id });
+    if (!category) return res.status(404).json({ error: 'Not found' });
+    const { weatherEnabled, weather, ratingEnabled, minRating } = req.body;
+    category.rentCondition = { weatherEnabled, weather, ratingEnabled, minRating };
+    await category.save();
+    res.json(category.rentCondition);
   } catch (err) {
     res.status(500).json({ error: 'Server error' });
   }

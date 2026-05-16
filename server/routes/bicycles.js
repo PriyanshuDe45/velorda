@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const Bicycle = require('../models/Bicycle');
 const Booking = require('../models/Booking');
-const { verifyToken } = require('../middlewares/auth');
+const { verifyToken } = require('../middleware/auth');
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, path.join(__dirname, '../uploads')),
