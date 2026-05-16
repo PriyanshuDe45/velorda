@@ -46,7 +46,7 @@ export default function LoginPage() {
               value={identifier}
               onChange={e => setIdentifier(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="user1@gmail.com or +77777777771"
+              placeholder="user@gmail.com"
               required
             />
           </div>

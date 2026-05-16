@@ -1,4 +1,4 @@
 import React from 'react';
-export default function PAGE_NAME() {
+export default function TariffsPage() {
   return <div>Coming soon</div>;
 }
