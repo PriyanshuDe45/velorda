@@ -32,15 +32,7 @@ app.use(cookieParser());
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-
-const authLimiter = rateLimit({
-  windowMs: 60 * 1000,  
-  max: 5,               
-  message: { error: 'Too many login attempts, please try again later.' },
-  standardHeaders: true,
-  legacyHeaders: false,
-});
-
+const authLimiter = rateLimit({ windowMs: 60*1000, max: 100 });
 
 app.use('/api/auth',         authLimiter, require('./routes/auth'));
 app.use('/api/categories',   require('./routes/categories'));

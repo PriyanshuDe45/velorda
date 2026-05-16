@@ -163,7 +163,7 @@ export default function TariffsPage() {
                 )}
               </div>
               <p className="text-xs text-gray-500 mt-1">
-                {tariff.basePrice} tenge/min
+                {tariff.basePrice} rupee/min
                 {tariff.type === 'DYNAMIC' && ` · min: ${tariff.minPrice} · max: ${tariff.maxPrice}`}
               </p>
             </div>
