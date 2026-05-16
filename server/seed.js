@@ -122,8 +122,15 @@ async function seed() {
   const bookingsCSV = readCSV('bookings.csv');
   const BASE_TIME   = new Date(Date.now() - 2 * 60 * 60 * 1000);
   for (const row of bookingsCSV) {
-    let photos = [];
-    try { photos = JSON.parse(row.photos || '[]'); } catch {}
+   let photos = [];
+      try {
+        const raw = (row.photos || '[]').trim();
+        const jsonReady = raw.replace(/'/g, '"');
+        const parsed = JSON.parse(jsonReady);
+        photos = Array.isArray(parsed) ? parsed : [];
+      } catch {
+        photos = [];
+      }
     await Booking.create({
       key:              row.booking_key,
       renter:           userMap[row.user_ref],

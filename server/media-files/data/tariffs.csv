@@ -1,3 +1,0 @@
-tariff_key,name,type,basePrice,minPrice,maxPrice,category_ref
-TAR_01,Standard,STATIC,100, , ,CAT_01
-TAR_02,Economy,DYNAMIC,75,25,150,CAT_01

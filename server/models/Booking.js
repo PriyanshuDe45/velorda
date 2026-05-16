@@ -8,7 +8,7 @@ const bookingSchema  = new mongoose.Schema({
     startedAt: { type: Date, required: true},
     endedAt: {type: Date, default: null},
     percentageOfWear: { type: Number, default: 0},
-    photos: { type: String, defualt: []},
+    photos: [{ type: String }],
     finalPrice: {type: [String], defaul:[]},
     rating: { type: Number, default : null, min:1,max: 5},
 }, { timestamps: true});
