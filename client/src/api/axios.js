@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+const isProd = window.location.pathname.startsWith('/velorda');
+const BASE = isProd ? '/velorda' : '';
+
 const api = axios.create({
-  baseURL: '',
+  baseURL: BASE,
   withCredentials: true,
   headers: { 'Content-Type': 'application/json' },
 });
@@ -13,3 +16,4 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+export { BASE };

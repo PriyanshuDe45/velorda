@@ -8,20 +8,23 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (!token) { setLoading(false); return; }
     api.get('/api/auth/me')
       .then(res => setUser(res.data.user))
-      .catch(() => setUser(null))
+      .catch(() => { localStorage.removeItem('token'); setUser(null); })
       .finally(() => setLoading(false));
   }, []);
 
   const login = async (identifier, password) => {
     const res = await api.post('/api/auth/login', { identifier, password });
+    localStorage.setItem('token', res.data.token);
     setUser(res.data.user);
     return res.data.user;
   };
 
   const logout = async () => {
-    await api.post('/api/auth/logout');
+    localStorage.removeItem('token');
     setUser(null);
   };
 
