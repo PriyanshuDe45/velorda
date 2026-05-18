@@ -241,7 +241,7 @@ export default function BicyclesPage() {
                 onDrop={e => handleDrop(e, bike._id)}
               >
                 {bike.image ? (
-                  <img src={`/uploads/${bike.image}`} alt={bike.name} className="w-full h-full object-cover rounded-lg" />
+                  <img src={`/velorda/uploads/${bike.image}`} alt={bike.name} className="w-full h-full object-cover rounded-lg" />
                 ) : (
                   <span className="text-2xl">🚲</span>
                 )}

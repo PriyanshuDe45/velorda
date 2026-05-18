@@ -102,7 +102,6 @@ export default function HistoryPage() {
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500">Start</th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500">End</th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500">Wear %</th>
-              <th className="text-left px-4 py-3 text-xs font-medium text-gray-500">Photos</th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500">Price</th>
               <th className="text-left px-4 py-3 text-xs font-medium text-gray-500">Rating</th>
             </tr>
@@ -125,18 +124,7 @@ export default function HistoryPage() {
                 </td>
                 <td className="px-4 py-3 text-gray-500">{b.percentageOfWear}%</td>
                 <td className="px-4 py-3">
-                  <div className="flex gap-1">
-                    {(b.photos || []).map((p, i) => (
-                      <img
-                        key={i}
-                        src={`/uploads/${p}`}
-                        alt="photo"
-                        className="w-8 h-8 object-cover rounded border border-gray-200"
-                        onError={e => e.target.style.display = 'none'}
-                      />
-                    ))}
-                    {(b.photos || []).length === 0 && <span className="text-gray-300">—</span>}
-                  </div>
+                 
                 </td>
                 <td className="px-4 py-3 font-medium text-gray-900">{b.finalPrice} </td>
                 <td className="px-4 py-3">
