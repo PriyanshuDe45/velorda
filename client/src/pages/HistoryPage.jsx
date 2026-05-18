@@ -183,7 +183,7 @@ export default function HistoryPage() {
                       </div>
                     </td>
                     <td className="px-4 py-3">
-                      <span className="font-semibold text-gray-900">{b.finalPrice?.toLocaleString()} ₸</span>
+                      <span className="font-semibold text-gray-900">{b.finalPrice?.toLocaleString()} </span>
                     </td>
                     <td className="px-4 py-3">
                       {b.rating ? (

@@ -173,7 +173,7 @@ export default function BicyclesPage() {
                 >
                   {bike.image ? (
                     <img
-                      src={`/uploads/${bike.image}`}
+                      src={`${window.location.pathname.startsWith('/velorda') ? '/velorda' : ''}/uploads/${bike.image}`}
                       alt={bike.name}
                       className="w-full h-full object-cover rounded-full border-2 border-blue-500"
                     />
@@ -241,7 +241,7 @@ export default function BicyclesPage() {
                 onDrop={e => handleDrop(e, bike._id)}
               >
                 {bike.image ? (
-                  <img src={`/velorda/uploads/${bike.image}`} alt={bike.name} className="w-full h-full object-cover rounded-lg" />
+                  <img src={`${window.location.pathname.startsWith('/velorda') ? '/velorda' : ''}/uploads/${bike.image}`} alt={bike.name} className="w-full h-full object-cover rounded-lg" />
                 ) : (
                   <span className="text-2xl">🚲</span>
                 )}
